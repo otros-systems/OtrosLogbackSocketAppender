@@ -22,12 +22,19 @@ apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
 
+repositories {
+    mavenCentral()
+}
 
-version = "0.1"
-group = 'pl.otros.loback.socket'
+dependencies {
+    compile 'ch.qos.logback:logback-classic:1.1.3'
+}
+
+version = "1.0"
+group = 'pl.otros.logback.socket'
 
 // custom tasks for creating source/javadoc jars
 task sourcesJar(type: Jar, dependsOn: classes) {
