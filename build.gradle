@@ -88,7 +88,7 @@ bintray {
         issueTrackerUrl = 'https://github.com/otros-systems/OtrosLogbackSocketAppender/issues'
         vcsUrl = 'https://github.com/otros-systems/OtrosLogbackSocketAppender.git'
         licenses = ['Apache-2.0']
-        labels = ['socket', 'loback']
+        labels = ['socket', 'logback']
         publicDownloadNumbers = true
         attributes= ['a': ['ay1', 'ay2'], 'b': ['bee'], c: 'cee'] //Optional package-level attributes
         //Optional version descriptor
